@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY LOVE</title>
+    <link rel="stylesheet" href="style.css">
+    <!--links google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!--tailwind css via CND-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--script do javascript-->
+    <script src="/script.js"></script>
+</head>
+
+
+<body>
+    <header class="bg-pink-400">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <h1 class="text-2xl font-bold text-white mb-4 md:mb-0">MY LOVE</h1>
+                <ul class="flex space-x-6">
+                    <li>
+                        <a href="#inicio" class="text-white hover:text-pink-800 font-medium transition duration-300">
+                            Início
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#textao" class="text-white hover:text-pink-800 font-medium transition duration-300">
+                            Declaração
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#fotos" class="text-white hover:text-pink-800 font-medium transition duration-300">
+                            Varal
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#musica" class="text-white hover:text-pink-800 font-medium transition duration-300">
+                            Especial
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main> <!--para carregar a imagem é só tirar o 1-->
+        <section id="inicio" class="py-40 px-4 md:px-8 bg-black bg-[url('/public/rosa.gif')] bg-cover bg-center">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-100 mb-6">Olá meu amor!</h1>
+                <p class="text-xl text-gray-200 md:text-2xl leading-relaxed text-center">
+                    Esta é uma pequena prova do amor que eu tenho por você, espero que você goste!
+                </p>
+            </div>
+        </section>
+
+
+
+
+
+
+        <section id="textao" class="py-16 px-4 md:px-8 bg-white">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-pink-400 mb-8 text-center">Uma Declaração</h2>
+                <div class="space-y-6 text-gray-700">
+                    <p class="text-lg leading-relaxed text-center">
+                        Sei que parece bobo, mas fiz esse site todo pensando em você, em todos os nossos momentos juntos
+                        e dedicando todo o meu amor por ti para que você pudesse ter uma pequena noção do que eu sou
+                        capaz de fazer só para ver um belo sorriso no seu rosto.
+                    </p>
+
+                    <p class="text-lg leading-relaxed text-center">
+                        Em todos os nossos momentos juntos eu percebi que quero passar o resto da minha vida ao seu
+                        lado, pois não existe ninguém que me faz sentir tão vivo quanto você. Ter você ao meu lado me
+                        faz querer dividir todos os momentos felizes da minha vida contigo, pois uma vida sem você faz
+                        com que esses momentos de felicidade se tornem nada.
+                    </p>
+
+                    <p class="text-lg leading-relaxed text-center">
+                        Eu dividiria meu lanche com você, o lado favorito do meu fone, e até mesmo minha meia do
+                        Deadpool e do Wolwerine. O meu lado da cama já se torna vazio sabendo que não posso tê-la comigo
+                        para dividir uma coberta quentinha no inverno.
+                    </p>
+
+                    <p class="text-lg leading-relaxed text-center">
+                        Mas independente da distância dos nossos destinos e das dificuldades para ficarmos juntos, eu
+                        amo você mais do que tudo, e obstáculo nenhum vai me fazer desistir de conquistar uma vida para
+                        a eternidade com você. Posso não ser dono dos nossos destinos, mas farei com que seja impossível
+                        a vida nos separar um do outro. Mesmo que demore anos, anos lutando por você ainda assim me
+                        fariam mais feliz do que não poder compartilhar meu último suspiro com quem eu amo.
+                    </p>
+                    <p class="text-lg leading-relaxed text-center">
+                        Então mesmo que as vezes pareça desesperador, mesmo que você a turbulência seja forte, não
+                        desista desse nosso sonho, pois eu não vou! Eu nunca vou te deixar, eu estarei sempre lutando
+                        por você, e juntos de Deus e com a Graça de Maria vamos estar juntos pela vida eterna.
+                    </p>
+                    <p class="text-lg leading-relaxed text-center">
+                        Eu te amo meu amor, e vou sempre te amar, e sempre vou estar aqui para te salvar e te fazer
+                        feliz, pois um sorriso seu para mim vale mais do que qualquer estrela que brilha no céu.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!--pra colocar a img é só tirar o 1 da URL-->
+        <section id="inicio"
+            class="py-[25%] md:py-[15%] px-4 md:px-8 bg-black bg-[url('/public/sao.gif')] bg-cover bg-center">
+        </section>
+
+
+
+
+
+
+        <section id="fotos"
+            class="py-20 px-4 bg-gray-100 overflow-hidden bg-[url('/public/tijolo.jpg')] bg-cover bg-center">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100">Nosso varal de Fotos</h2>
+
+                <div class="relative">
+                    <!-- Container do slide -->
+                    <div id="gallery-container"
+                        class="flex overflow-x-auto pb-8 scroll-smooth snap-x snap-mandatory space-x-8">
+                        <!-- Itens da galeria -->
+                        <div class="flex-none w-64 snap-center">
+                            <div
+                                class="bg-white p-4 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                                <img src="/public/fotos/1.jpeg" alt="Natureza"
+                                    class="w-full h-48 object-cover rounded-md mb-3">
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="flex-none w-64 snap-center">
+                            <div
+                                class="bg-white p-4 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                                <img src="/public/fotos/2.jpeg" alt="Natureza"
+                                    class="w-full h-48 object-cover rounded-md mb-3">
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="flex-none w-64 snap-center">
+                            <div
+                                class="bg-white p-4 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                                <img src="/public/fotos/3.jpeg" alt="Natureza"
+                                    class="w-full h-48 object-cover rounded-md mb-3">
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="flex-none w-64 snap-center">
+                            <div
+                                class="bg-white p-4 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                                <img src="/public/fotos/4.jpeg" alt="Natureza"
+                                    class="w-full h-48 object-cover rounded-md mb-3">
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="flex-none w-64 snap-center">
+                            <div
+                                class="bg-white p-4 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                                <img src="/public/fotos/5.jpeg" alt="Natureza"
+                                    class="w-full h-48 object-cover rounded-md mb-3">
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="flex-none w-64 snap-center">
+                            <div
+                                class="bg-white p-4 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                                <img src="/public/fotos/6.jpeg" alt="Natureza"
+                                    class="w-full h-48 object-cover rounded-md mb-3">
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="flex-none w-64 snap-center">
+                            <div
+                                class="bg-white p-4 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                                <img src="/public/fotos/7.jpeg" alt="Natureza"
+                                    class="w-full h-48 object-cover rounded-md mb-3">
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="flex-none w-64 snap-center">
+                            <div
+                                class="bg-white p-4 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                                <img src="/public/fotos/8.jpeg" alt="Natureza"
+                                    class="w-full h-48 object-cover rounded-md mb-3">
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="flex-none w-64 snap-center">
+                            <div
+                                class="bg-white p-4 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                                <img src="/public/fotos/9.jpeg" alt="Natureza"
+                                    class="w-full h-48 object-cover rounded-md mb-3">
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="flex-none w-64 snap-center">
+                            <div
+                                class="bg-white p-4 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                                <img src="/public/fotos/10.jpeg" alt="Natureza"
+                                    class="w-full h-48 object-cover rounded-md mb-3">
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="flex-none w-64 snap-center">
+                            <div
+                                class="bg-white p-4 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                                <img src="/public/fotos/11.jpeg" alt="Natureza"
+                                    class="w-full h-48 object-cover rounded-md mb-3">
+                                    <br>
+                            </div>
+                        </div>
+
+                        <div class="flex-none w-64 snap-center">
+                            <div
+                                class="bg-white p-4 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                                <img src="/public/fotos/12.jpeg" alt="Natureza"
+                                    class="w-full h-48 object-cover rounded-md mb-3">
+                                    <br>
+                            </div>
+                        </div>
+
+                        <!-- Adicione mais fotos conforme necessário -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <!--pra colocar a img é só tirar o 1 da URL-->
+        <section id="inicio"
+            class="py-[25%] md:py-[15%] px-4 md:px-8 bg-black bg-[url('/public/arawin.gif')] bg-cover bg-center">
+        </section>
+
+
+
+
+
+
+        <!-- Nova seção para músicas do YouTube -->
+        <section id="musica" class="py-16 px-4 bg-pink-400">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100">
+                    Para uma experiência melhor use fones de ouvido,
+                </h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100">
+                    e quando você estiver pronta APERTE O PLAY!!!
+                </h2>
+
+                <!-- Grid responsivo -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    <!-- Card 1 -->
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">CLIPS</h3>
+                            <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
+                                <iframe class="w-full h-full" src="https://www.youtube.com/embed/5qap5aO4i9A"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div
+                        class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">SURPRISE!</h3>
+                            <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
+                                <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+    <footer class="bg-black text-white py-6 px-4 text-center">
+        <p class="text-sm md:text-base">&copy; 2025 Minha Página. Todos os direitos reservados.</p>
+    </footer>
+
+
+
+</body>
+
+</html>

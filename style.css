@@ -1,0 +1,24 @@
+* {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* Esconde a barra de rolagem mas mantém a funcionalidade */
+#gallery-container::-webkit-scrollbar {
+    display: none;
+}
+
+#gallery-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Fonte estilo escrita à mão para as legendas */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.font-handwriting {
+    font-family: 'Caveat', cursive;
+}
