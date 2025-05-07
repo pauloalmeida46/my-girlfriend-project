@@ -1,3 +1,14 @@
-# Projeto para minha namorada
+# Meu Projeto de Landing Page
 
-Este projeto foi feito somente para minha namorada visualizar e qualquer sujeito que utilizar deste arquivo para utilização ou violação irá sofrer dos direitos de uso desta página e estará sujeito a processos jurídicos!
+Um projeto simples de landing page criado com HTML e CSS.
+
+## Como rodar localmente
+
+1. Clone este repositório
+2. Abra o arquivo `index.html` no seu navegador
+
+## Como fazer deploy no Vercel
+
+1. Crie uma conta no [Vercel](https://vercel.com)
+2. Instale o Vercel CLI (`npm install -g vercel`)
+3. Execute `vercel` no diretório do projeto e siga as instruções
