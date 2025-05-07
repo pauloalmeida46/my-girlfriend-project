@@ -1,14 +1,13 @@
-# Meu Projeto de Landing Page
+# Projeto para minha namorada
 
-Um projeto simples de landing page criado com HTML e CSS.
+Este projeto é de autoria exclusiva de Paulo Almeida. Todos os direitos estão reservados.
 
-## Como rodar localmente
+## ⚠️ Aviso Legal
 
-1. Clone este repositório
-2. Abra o arquivo `index.html` no seu navegador
+O projeto **my-girlfriend-project** está protegido por direitos autorais conforme as leis vigentes. Qualquer reprodução, clonagem, modificação ou redistribuição deste repositório para **fins maliciosos, ilegais ou não autorizados** é **estritamente proibida**.
 
-## Como fazer deploy no Vercel
+O uso indevido deste projeto pode resultar em **ações legais**, incluindo **processo judicial** com base na violação dos direitos autorais e outros dispositivos legais aplicáveis.
 
-1. Crie uma conta no [Vercel](https://vercel.com)
-2. Instale o Vercel CLI (`npm install -g vercel`)
-3. Execute `vercel` no diretório do projeto e siga as instruções
+---
+
+**Respeite o trabalho do desenvolvedor. Use com responsabilidade.**
